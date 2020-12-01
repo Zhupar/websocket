@@ -1,0 +1,39 @@
+.wrapper {
+    width: 400px;
+    margin: 20px auto;  
+
+}
+.inp {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+button {
+    font-size: 15px;
+    padding: 5px 15px;
+    border:0; 
+    border-radius: 5px;
+    background-color: aqua;
+}
+.message {
+    float: left;
+    clear: both;
+    padding: 5px;    
+    box-sizing: border-box;
+    border: 3px solid aqua;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    word-wrap: break-word;
+}
+.send-message {
+    float: right;
+    clear: both;
+    padding: 5px;    
+    box-sizing: border-box;
+    border: 3px solid aqua;
+    border-radius: 5px;
+    font-size: 15px;
+    font-weight: 500;
+    word-wrap: break-word;
+}
